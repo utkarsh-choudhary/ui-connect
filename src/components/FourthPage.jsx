@@ -7,8 +7,8 @@ function FourthPage() {
   return (
     <div className='relative h-screen'>
       <img src="../images/emp.jpg" alt="Background" className='w-full h-full object-cover ' />
-      <div className='absolute w-full h-full top-0 left-0 flex flex-col justify-center items-center space-y-8 text-white'>
-        <div className='flex items-start text-center space-x-4 border p-12 shadow-xl cursor-pointer opacity-95 '>
+      <div className='absolute w-full h-full top-0 left-0 flex flex-col justify-center items-center space-y-8 text-white '>
+        <div className='flex items-start text-center space-x-4 border p-12 shadow-xl cursor-pointer opacity-95 hover:shadow-2xl'>
           <PublicIcon className='text-4xl m-4' />
           <div>
             <h1 className='text-4xl font-bold'>Global Distribution</h1>
@@ -20,7 +20,7 @@ function FourthPage() {
             </p>
           </div>
         </div>
-        <div className='flex items-start text-center space-x-4 border p-12 shadow-xl cursor-pointer opacity-95'>
+        <div className='flex items-start text-center space-x-4 border p-12 shadow-xl cursor-pointer opacity-95 hover:shadow-2xl'>
           <CloudIcon className='text-4xl m-4' />
           <div>
             <h1 className='text-4xl font-bold'>An Integrated Hotel Management System on Cloud</h1>
@@ -31,7 +31,7 @@ function FourthPage() {
             </p>
           </div>
         </div>
-        <div className='flex items-start text-center space-x-4 border p-12 shadow-xl cursor-pointer opacity-95'>
+        <div className='flex items-start text-center space-x-4 border p-12 shadow-xl cursor-pointer opacity-95 hover:shadow-2xl'>
           <EngineeringIcon className='text-4xl m-4 ' />
           <div>
             <h1 className='text-4xl font-bold'>Booking Engine</h1>
